@@ -20,16 +20,23 @@ public class Ruin {
 		
 		//loop
 		
-		while (startAmount > 0 && startAmount < winLimit) {
+		while (startAmount > 0 && startAmount <= winLimit) {
 			if ( Math.random()< winChance) {
-				int newAmount = startAmount + 1;
-				System.out.println(newAmount);
+				
+				startAmount += 1; 
+				System.out.println("Success! +1"); 
+				
+			
 				
 			}
 			else {
-				int newAmount = startAmount - 1;
-				System.out.println(newAmount);
+				startAmount -= 1; 
+				System.out.println("Fail -1"); 
+				
+
+				
 			}
+System.out.println("Current Amount:" + startAmount); 
 
 			}
 		
