@@ -36,7 +36,7 @@ public class Ruin {
 
 				
 			}
-System.out.println("Current Amount:" + startAmount); 
+			System.out.println("Current amount"+ startAmount); 
 
 			}
 		
