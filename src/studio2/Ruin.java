@@ -39,7 +39,14 @@ public class Ruin {
 			System.out.println("Current amount"+ startAmount); 
 
 			}
+		if (startAmount >= winLimit) {
+		System.out.println ("The day was a success"); 
 		
+		} 
+		
+		else {
+		System.out.println("Ruin!"); 
+		}
 	
 	}
 
